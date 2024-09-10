@@ -1,0 +1,29 @@
+.banner{
+    background: linear-gradient( #222121cc, rgba(0, 0, 0, 0.1) ), url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    background-position: right;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    color: white;
+    padding-left: 8em;
+    padding-top: 2em;
+
+    
+}
+
+  
+  
+@media  screen and (max-width: 525px) {
+    .banner{ 
+        background: linear-gradient( #121212cc, rgb(0, 0, 0) );
+        padding-left: 1em;
+        padding-top: 2em;
+
+    }
+    #our_prod {
+        padding-left: 0em;
+    }
+  }
